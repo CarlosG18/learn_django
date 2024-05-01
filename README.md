@@ -10,9 +10,9 @@
 
 Seja bem-vindo à seção de conteúdos sobre Django! Aqui você encontrará alguns tópicos que considero importantes para se entender bem o framework.
 
-- [📌 check-list para iniciar um projeto em django](https://github.com/CarlosG18/learn_django/blob/main/assuntos/check-list.md)
+- [📌 check-list para iniciar um projeto em django](https://github.com/CarlosG18/learn_django/blob/main/assuntos/check_list.md)
 
-- [📌 models](https://github.com/CarlosG18/learn_django/blob/main/assuntos/modelss.md)
+- [📌 models](https://github.com/CarlosG18/learn_django/blob/main/assuntos/models.md)
 
 - [📌 Django Admin Site ](https://github.com/CarlosG18/learn_django/blob/main/assuntos/site_admin.md)
 
