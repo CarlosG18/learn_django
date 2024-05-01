@@ -10,27 +10,27 @@
 
 Seja bem-vindo à seção de conteúdos sobre Django! Aqui você encontrará alguns tópicos que considero importantes para se entender bem o framework.
 
-- [📌 check-list para iniciar um projeto em django](https://github.com/CarlosG18/learn_djangorestframework/blob/main/assuntos/check-list.md)
+- [📌 check-list para iniciar um projeto em django](https://github.com/CarlosG18/learn_django/blob/main/assuntos/check-list.md)
 
-- [📌 models](https://github.com/CarlosG18/learn_djangorestframework/blob/main/assuntos/modelss.md)
+- [📌 models](https://github.com/CarlosG18/learn_django/blob/main/assuntos/modelss.md)
 
-- [📌 Django Admin Site ](https://github.com/CarlosG18/learn_djangorestframework/blob/main/assuntos/site_admin.md)
+- [📌 Django Admin Site ](https://github.com/CarlosG18/learn_django/blob/main/assuntos/site_admin.md)
 
-- [📌 Sessões](https://github.com/CarlosG18/learn_djangorestframework/blob/main/assuntos/sessoes.md)
+- [📌 Sessões](https://github.com/CarlosG18/learn_django/blob/main/assuntos/sessoes.md)
 
-- [📌 Trabalhando com forms](https://github.com/CarlosG18/learn_djangorestframework/blob/main/assuntos/forms.md)
+- [📌 Trabalhando com forms](https://github.com/CarlosG18/learn_django/blob/main/assuntos/forms.md)
 
-- [📌 Testes com django](https://github.com/CarlosG18/learn_djangorestframework/blob/main/assuntos/testes.md)
+- [📌 Testes com django](https://github.com/CarlosG18/learn_django/blob/main/assuntos/testes.md)
 
-- [📌 Autentificação e permissões](https://github.com/CarlosG18/learn_djangorestframework/blob/main/assuntos/auth.md)
+- [📌 Autentificação e permissões](https://github.com/CarlosG18/learn_django/blob/main/assuntos/auth.md)
 
-- [📌 Generic Views](https://github.com/CarlosG18/learn_djangorestframework/blob/main/assuntos/generic_views.md)
+- [📌 Generic Views](https://github.com/CarlosG18/learn_django/blob/main/assuntos/generic_views.md)
 
-- [📌 Arquivos estáticos](https://github.com/CarlosG18/learn_djangorestframework/blob/main/assuntos/static_files.md)
+- [📌 Arquivos estáticos](https://github.com/CarlosG18/learn_django/blob/main/assuntos/static_files.md)
 
-- [📌 Templates](https://github.com/CarlosG18/learn_djangorestframework/blob/main/assuntos/templates.md)
+- [📌 Templates](https://github.com/CarlosG18/learn_django/blob/main/assuntos/templates.md)
 
-- [📌 Deploy](https://github.com/CarlosG18/learn_djangorestframework/blob/main/assuntos/deploy.md)
+- [📌 Deploy](https://github.com/CarlosG18/learn_django/blob/main/assuntos/deploy.md)
 
 ## 📁 Projetos exemplos para estudo:
 
