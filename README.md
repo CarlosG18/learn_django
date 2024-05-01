@@ -4,7 +4,7 @@
 
 **Tecnologias usadas:**
 - ![python-logo](https://img.shields.io/badge/python-yellow?style=for-the-badge&logo=python&logoColor=white&labelColor=blue)
-- ![django-logo](https://img.shields.io/badge/djangorestframework-228B22?style=for-the-badge&logo=django&logoColor=white&labelColor=228B22)
+- ![django-logo](https://img.shields.io/badge/django-228B22?style=for-the-badge&logo=django&logoColor=white&labelColor=228B22)
 
 ## 📚 Tópicos de estudo
 
