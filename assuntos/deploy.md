@@ -1,5 +1,7 @@
 # Deploy
 
+> Entendendo um pouco sobre o processo de deploy em aplicações django
+
 - [lista](https://djangofriendly.com/index.html) de provedores de hospedagem que trabalham com o django.
 
 alguns serviços de produção:
