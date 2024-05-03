@@ -12,7 +12,7 @@ Seja bem-vindo à seção de conteúdos sobre Django! Aqui você encontrará alg
 
 - [📌 check-list para iniciar um projeto em django](https://github.com/CarlosG18/learn_django/blob/main/assuntos/check_list.md)
 
-- [📌 variáveis de ambiente](https://github.com/CarlosG18/learn_django/blob/main/assuntos/.md)
+- [📌 variáveis de ambiente](https://github.com/CarlosG18/learn_django/blob/main/assuntos/var_amb.md)
 
 - [📌 models](https://github.com/CarlosG18/learn_django/blob/main/assuntos/models.md)
 
