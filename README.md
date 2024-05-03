@@ -41,4 +41,4 @@ Para desenvolver os conceitos vistos, foram estudados alguns tutoriais disponive
 - [🚩 Tutorial do site oficial do Django](https://github.com/CarlosG18/polls_django)
 - [🚩 Tutorial do site MDN Web Docs](https://github.com/CarlosG18/locallibrary_django)
 - [🚩 CRUD com django](https://github.com/CarlosG18/CRUD_django)
-- [🚩 Projeto alura_space - Curso Django: Templates e boas práticas](https://github.com/CarlosG18/alura_space_django)
+- [🚩 Projeto alura_space](https://github.com/CarlosG18/alura_space_django)
