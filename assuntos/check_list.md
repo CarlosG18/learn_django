@@ -121,6 +121,14 @@ urlpatterns = [
 
 Outra boa prática de desenvolvimento é criar um arquivo **.gitignore** para evitar está enviando coisas inapropriadas para o seu repositorio remoto no github. no nosso caso, usamos a ferramenta online [gitignore.io](https://www.toptal.com/developers/gitignore) para está criando um `template` base para o nosso projeto em **django**.
 
+**⚠️ OBS**: Uma boa prática quando se esta em um time de desenvolvimento é não enviar os arquivos de migrações para o github. vamos ver como fazer isso.
+
+como o modelo de arquivo de migração do django possui o seguite formato: **xxxx_** podemos ignora-ló usando a seguinte expressão no arquivo `.gitignore`:
+
+```.gitignore
+[0-9][0-9][0-9][0-9]_*
+```
+
 ## [7/7] ⏰ Ajustando o horario e a linguagem
 
 No arquivo `settings.py` do diretorio principal do seu projeto altere as seguintes variaveis para ajustar a linguagem e o horario para os correspondentes do BRASIL:
