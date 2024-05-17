@@ -30,6 +30,8 @@ Seja bem-vindo à seção de conteúdos sobre Django! Aqui você encontrará alg
 
 - [📌 Templates](https://github.com/CarlosG18/learn_django/blob/main/assuntos/templates.md)
 
+- [📌 Context Processors](./assuntos/context_processors.md)
+
 - [📌 Deploy](https://github.com/CarlosG18/learn_django/blob/main/assuntos/deploy.md)
 
 ## 📁 Projetos exemplos para estudo:
@@ -40,3 +42,14 @@ Para desenvolver os conceitos vistos, foram estudados alguns tutoriais disponive
 - [🚩 Tutorial do site MDN Web Docs](https://github.com/CarlosG18/locallibrary_django)
 - [🚩 CRUD com django](https://github.com/CarlosG18/CRUD_django)
 - [🚩 Projeto alura_space](https://github.com/CarlosG18/alura_space_django)
+
+## 📁 Projetos pessoais:
+
+- [🚀 Ecommerce - compronline ](https://github.com/CarlosG18/e-comerce_django)
+- [🚀 Sistema de agendamento online - Sys_Barbershop ](https://github.com/CarlosG18/sys_barbershop)
+
+## 🛠️ Utilitários
+
+Ferramentas ou automatizações referentes ao django:
+
+- [🔧 Automatização na criação de um projeto e Apps](./assuntos/a_create_project+app.md)
