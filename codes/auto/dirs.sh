@@ -23,11 +23,21 @@ mkdir img
 cd ..
 cd ..
 
+#create secrec_key generator script
+mkdir scripts
+cd scripts
+echo "from django.core.management.utils import get_random_secret_key
+
+print(get_random_secret_key())" >> random_secret_key.py
+cd ..
+
 ajust_setup
 
 # Criando o arquivo .env
 touch .env
-echo "SECRET_KEY = " >> .env
+
+linha=$(awk 'NR==27' ./setup/settings.py)
+echo $linha >> .env
 echo "EMAIL_BACKEND = " >> .env
 echo "EMAIL_HOST = " >> .env
 echo "EMAIL_USE_TLS = " >> .env
@@ -215,4 +225,4 @@ cython_debug/
 
 python3 manage.py migrate
 
-echo 'AMBIENTE DJANGO CONFIGURADO COM SUCESSO!'
+echo "AMBIENTE DJANGO CONFIGURADO COM SUCESSO!"

@@ -1,9 +1,10 @@
 #!/bin/bash
 
 cd setup
+
 awk '/# Build paths inside the project like this:/{print "from dotenv import load_dotenv\nimport os\n\nload_dotenv()"}1' settings.py > arquivo_temporario && mv arquivo_temporario settings.py
 
-awk '/# SECURITY WARNING: don'\''t run with debug turned on in production!/{print "SECRET_KEY = str(os.getenv('\''SECRET_KEY'\''))"}1' settings.py > arquivo_temporario && mv arquivo_temporario settings.py
+awk '/# SECURITY WARNING: don'\''t run with debug turned on in production!/{print "SECRET_KEY = os.getenv('\''SECRET_KEY'\'')"}1' settings.py > arquivo_temporario && mv arquivo_temporario settings.py
 
 awk '/True,/{print "        '\''DIRS'\'': [os.path.join(BASE_DIR, '\''core/templates'\'')],"}1' settings.py > arquivo_temporario && mv arquivo_temporario settings.py
 
@@ -30,6 +31,12 @@ echo "urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROO
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)" >> urls.py
 
-awk '/urlpatterns =/{print "from django.conf.urls.static import static\nfrom django.conf import settings\n\n"}1' urls.py > arquivo_temporario && mv arquivo_temporario urls.py
+awk '/urlpatterns =/{print "from django.conf.urls.static import static\nfrom django.urls import path, include\nfrom django.conf import settings\n\n"}1' urls.py > arquivo_temporario && mv arquivo_temporario urls.py
+
+awk 'NR != 18' urls.py > novo_arquivo.txt && mv novo_arquivo.txt urls.py
+
+awk 'NR != 18' urls.py > novo_arquivo.txt && mv novo_arquivo.txt urls.py
+
+awk 'NR != 27' settings.py > novo_arquivo.txt && mv novo_arquivo.txt setings.py
 
 cd ..
