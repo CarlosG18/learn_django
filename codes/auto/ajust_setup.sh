@@ -37,6 +37,6 @@ awk 'NR != 18' urls.py > novo_arquivo.txt && mv novo_arquivo.txt urls.py
 
 awk 'NR != 18' urls.py > novo_arquivo.txt && mv novo_arquivo.txt urls.py
 
-awk 'NR != 27' settings.py > novo_arquivo.txt && mv novo_arquivo.txt setings.py
+awk 'NR != 27' settings.py > novo_arquivo.txt && mv novo_arquivo.txt settings.py
 
 cd ..
