@@ -45,7 +45,11 @@ echo "EMAIL_PORT = " >> .env
 echo "EMAIL_HOST_USER = " >> .env
 echo "EMAIL_HOST_PASSWORD = " >> .env
 
+cd setup 
+awk 'NR != 27' settings.py > novo_arquivo.txt && mv novo_arquivo.txt settings.py
+
 # criando o arquivo .gitignore
+cd ..
 touch .gitignore
 echo "# Created by https://www.toptal.com/developers/gitignore/api/django
 # Edit at https://www.toptal.com/developers/gitignore?templates=django
@@ -223,6 +227,7 @@ cython_debug/
 
 # End of https://www.toptal.com/developers/gitignore/api/django" >> .gitignore
 
+python3 manage.py makemigrations
 python3 manage.py migrate
 
 echo "AMBIENTE DJANGO CONFIGURADO COM SUCESSO!"
