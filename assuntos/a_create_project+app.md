@@ -43,7 +43,7 @@ Neste arquivo você irá colocar "atalhos" para facilitar o uso da automação:
 ```bash
 alias init_django='source <diretorio>/dirs.sh'
 alias ajust_setup='<diretorio>/ajust_setup.sh'
-alias create_app='<diretorio>/create_app.sh’
+alias create_app='<diretorio>/create_app.sh'
 ```
 
 substitua o `<diretorio>` pelo caminho ao qual os arquivos da automação estão disponiveis. use o comando `pwd` para isso.
