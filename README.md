@@ -53,3 +53,4 @@ Para desenvolver os conceitos vistos, foram estudados alguns tutoriais disponive
 Ferramentas ou automatizações referentes ao django:
 
 - [🔧 Automatização na criação de um projeto e Apps](./assuntos/a_create_project+app.md)
+- [🔧 Script para ajustar os arquivos estáticos](./assuntos/ajust_static.md)
